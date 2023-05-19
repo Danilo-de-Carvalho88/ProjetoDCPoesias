@@ -17,6 +17,7 @@ h1 {
 /* Configurações do cabeçalho */
 
 .cabecalho {
+    background-color: var(--corDeFundoHeader);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +37,7 @@ h1 {
 .menu {
     display: flex;
     align-items: center;
-    background-color: limegreen;
+    background-color: var(--corMenu);
     border-radius: 12px;
 }
 
@@ -51,7 +52,7 @@ h1 {
 }
 
 .menu li a:hover {
-    background-color: rgb(243, 140, 6);
+    background-color: var(--corMenuHover);
     border-radius: 12px;
     color: #ffffff;
 }
@@ -59,7 +60,7 @@ h1 {
 /* Configurações do corpo principal */
 
 .principal {
-    background-color: antiquewhite;
+    background-color: var(--corDeFundo);
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -69,7 +70,6 @@ h1 {
 }
 
 .principal .ultimos-textos{
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,6 @@ h1 {
 }
 
 .principal .principais-textos {
-    background-color: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +92,6 @@ h1 {
 }
 
 .principal .texto-poema {
-    background-color: blueviolet;
     margin: 10px 0px;
     padding: 10px;
     width: 90%;
