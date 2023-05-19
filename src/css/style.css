@@ -5,6 +5,13 @@
 
 body {
     font-family: 'Caveat', cursive;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* Configurações do cabeçalho */
@@ -47,4 +54,48 @@ body {
     background-color: rgb(243, 140, 6);
     border-radius: 12px;
     color: #ffffff;
+}
+
+/* Configurações do corpo principal */
+
+.principal {
+    background-color: antiquewhite;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 10px auto;
+}
+
+.principal .ultimos-textos{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    text-align: justify;
+}
+
+.principal .principais-textos {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    text-align: justify;
+}
+
+.principal .texto-poema {
+    background-color: blueviolet;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 90%;
+    font-size: 1.3em;
 }
