@@ -1,7 +1,14 @@
 :root {
     /* Cores */
-    --corDeFundo:#FFFAEE;
+    --corDeFundo:#fae6be;
     --corDeFundoHeader:#805500bb;
     --corMenuHover:#f38c06;
     --corMenu:#32cd32ad;
+    --corDeFundoTexto: #f7da97;
+
+    /* Fontes */
+    --font-padrao: arial, verdana, helvetica, sans-serif;
+    --font-grafia-mao: 'Caveat', cursive;
+    --font-grafia-mao-text: 'Sriracha', cursive;
+    --font-grafia-mao2: 'Itim', cursive;
 }
