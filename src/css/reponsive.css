@@ -16,4 +16,16 @@
         font-size: 30px;
     }
 
+    /* Configurações do corpo principal */
+
+    .principal .texto-poema {
+        background-color: var(--corDeFundoTexto);
+        margin: 10px 0px;
+        padding: 10px;
+        width: 97%;
+        font-size: 0.7em;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
+        font-family: var(--font-grafia-mao-text);
+    }
 }
