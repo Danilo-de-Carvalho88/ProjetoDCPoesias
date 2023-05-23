@@ -28,4 +28,17 @@
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
         font-family: var(--font-grafia-mao-text);
     }
+
+    /* Configurações da aba Sobre */
+
+    .principal .texto-apresentacao {
+        background-color: var(--corDeFundoTexto);
+        margin: 10px 0px;
+        padding: 10px;
+        width: 97%;
+        font-size: 1em;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
+        font-family: var(--font-grafia-mao-text);
+    }
 }
